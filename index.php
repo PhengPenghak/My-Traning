@@ -32,7 +32,8 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
-<body class="fixed-bottom-padding">
+<body class="fixed-bottom-padding" style="background-color:whitesmoke;">
+
     <div class="top-bar">
         <div class="container">
             <div class="col-md-6">
@@ -51,8 +52,10 @@
             <a href="listing.html" class="text-decoration-none bg-white p-1 rounded shadow-sm d-flex align-items-center">
             <i class="text-dark icofont-sale-discount"></i>
             <span class="badge badge-danger p-1 ml-1 small">50%</span>
+
 </a>
 </p>
+
 <div class="btn-menu">
           <span class="fas fa-bars"></span>
         </div>
@@ -118,10 +121,10 @@
     </div>
     </a>
     </div>
-    </div>
+    </>
 
-
-
+   
+      
     <div class="bg-white shadow-sm osahan-main-nav">
         <nav class="navbar navbar-expand-lg navbar-light bg-white osahan-header py-0 container">
             <a class="navbar-brand mr-0" href="#"><img class="img-fluid logo-img "
@@ -150,7 +153,7 @@
                                 <input type="text" class="form-control form-control-sm"
                                     id="inlineFormInputGroupUsername2" placeholder="Search Location">
                                 <div class="input-group-prepend">
-                                    <div class="btn btn-success rounded-right btn-sm"><i
+                                    <div class="btn btn-success rounded-right btn-sm" style="margin-left: -13px;"><i
                                             class="far fa-search"></i>Detect</div>
                                 </div>
                             </div>
@@ -169,7 +172,7 @@
                     <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
                         placeholder="Search for Products..">
                     <div class="input-group-prepend">
-                        <div class="btn btn-success rounded-right"><i class="far fa-search"></i></div>
+                        <div class="btn btn-success rounded-right"><i class="fas fa-search"></i></div>
                     </div>
                 </div>
             </div>
@@ -291,7 +294,7 @@
                 </ul>
                 <div class="list-unstyled form-inline mb-0 ml-auto">
                     <a href="#" class="text-white px-3 py-2">Trending</a>
-                    <a href="#" class="text-white bg-offer px-3 py-2"><i class="fas fa-badge-percent h6"></i>Promos</a>
+                    <a href="#" class="text-white bg-offer px-3 py-2"><i class="fal fa-badge-percent"></i>Promos</a>
                 </div>
             </div>
         </div>
@@ -1344,7 +1347,9 @@
         </div>
     </div>
 
+    
 
+     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

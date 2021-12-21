@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-
-.fixed-bottom-padding {
-  background-color: whitesmoke;
-}
 /* Top bar */
 .top-bar {
   background-color: #f0f2f5;
@@ -699,193 +695,6 @@ label {
   cursor: pointer;
 }
 
-/* .dark .theme-switch {
-  background: #fff;
-  color: #000;
-}
-
-.theme-switch-wrapper em {
-  display: none;
-}
-
-.theme-switch-wrapper #checkbox {
-  display: none;
-}
-
-.dark body {
-  background-color: #000;
-  color: #ffffff;
-}
-
-.dark .dropdown-divider {
-  border-top: 1px solid #292929;
-}
-
-.dark .custom-select {
-  background-color: #1c1c1c;
-  border: 1px solid #323638;
-}
-
-.dark .breadcrumb {
-  border-radius: 0px;
-  background: #1c1c1c;
-}
-
-.dark .btn-icon {
-  border: 1px solid #323638;
-}
-
-.dark .card {
-  background-color: #1c1c1c;
-}
-
-.dark .c-t-order li a {
-  background: #000000;
-}
-
-.dark .badge-light {
-  color: #99a2ab;
-  background-color: #000000;
-}
-
-.dark .btn-light {
-  color: #ffffff !important;
-  background: #000;
-}
-
-.dark .custom-control-label::before {
-  border: #292929 solid 1px;
-}
-
-.dark .c-t-order li a.active,
-.dark .c-t-order li a:hover {
-  background: #28a744 !important;
-}
-
-.dark .bg-white {
-  background-color: #1b1b1b !important;
-}
-
-.dark .dropdown-item:focus,
-.dark .dropdown-item:hover {
-  color: #ffffff;
-  background-color: #000;
-}
-
-.dark .osahan-notifications:hover {
-  background: #000000 !important;
-}
-
-.dark .modal-backdrop {
-  background-color: #fff;
-}
-
-.dark .border-bottom,
-.dark .border-top,
-.dark .border-left,
-.dark .border-right,
-.dark .border {
-  border-color: #292929 !important;
-}
-
-.dark a.bg-light:focus,
-.dark a.bg-light:hover,
-.dark button.bg-light:focus,
-.dark button.bg-light:hover {
-  background-color: #000000 !important;
-}
-
-.dark .dropdown-item {
-  color: #fff;
-}
-
-.dark .dropdown-menu {
-  background: #1c1c1c;
-  border: 1px solid #000000;
-  color: #ffffff;
-}
-
-.dark .text-dark {
-  color: #e4e4e4 !important;
-}
-
-.dark .modal-content {
-  background-color: #000;
-} */
-
-/* .dark .bg-light {
-  background-color: #101010 !important;
-}
-
-.dark .modal-header {
-  border-bottom: 1px solid #292929;
-}
-
-.dark .close {
-  color: #fff !important;
-}
-
-.dark .btn {
-  color: #ffffff;
-}
-
-.dark a.text-dark:focus,
-.dark a.text-dark:hover {
-  color: #ffffff !important;
-}
-
-.dark .list-card-image a.btn,
-.dark .cart-items-number .btn {
-  border: 3px solid #252525;
-  background: #000;
-  box-shadow: none;
-}
-
-.dark .cart-items-number {
-  background: #000000;
-}
-
-.dark .hc-nav-trigger {
-  color: #28a744;
-}
-
-.dark label {
-  color: #ffffff;
-}
-
-.dark .hc-offcanvas-nav .nav-container,
-.dark .hc-offcanvas-nav .nav-wrapper,
-.dark .hc-offcanvas-nav ul {
-  background: #25282e;
-}
-
-.dark .hc-offcanvas-nav li:not(.custom-content) a {
-  color: #a3a6a9;
-  background: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid #33353e;
-}
-
-.dark .hc-offcanvas-nav li:not(.custom-content) a:hover {
-  color: #ffffff;
-  background: #000000 !important;
-  border-bottom: 1px solid #000000;
-}
-
-.dark .hc-offcanvas-nav li.nav-close a,
-.dark .hc-offcanvas-nav li.nav-back a {
-  border-top: 1px solid #33353e;
-  border-bottom: 1px solid #33353e;
-}
-
-.dark .hc-offcanvas-nav .nav-item {
-  background: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid #343a40;
-}
-
-.dark .hc-offcanvas-nav ul.bottom-nav {
-  border-top: 1px solid #343a40;
-} */
-
 .dark .form-control {
   border: 1px solid #333538;
   background-color: transparent !important;
@@ -969,38 +778,6 @@ label {
   background-color: #ffffff;
   border-bottom: 2px solid #4ca746;
 }
-
-/* .c-t-order li {
-  border: none !important;
-  margin: 5px 4px !important;
-}
-
-.c-t-order li a {
-  background: #ffffff;
-  border-radius: 6px !important;
-  padding: 15px 14px !important;
-}
-
-.c-t-order li a i {
-  background: #fff;
-  border: 1px solid #eff2f5;
-  padding: 5px 5px;
-  border-radius: 50px;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  font-size: 18px;
-  vertical-align: bottom;
-}
-
-.c-t-order li a.active,
-.c-t-order li a:hover {
-  background: #eff2f5 !important;
-}
-
-.c-t-order li a.active i {
-  background: #f17f39;
-  color: #fff !important;
-  border-color: transparent;
-} */
 
 /* header css */
 
@@ -1235,7 +1012,7 @@ label {
 .USA,
 .Unitedstarted {
   margin: 2px;
-  padding: 7px;
+  padding: 5px;
   border-radius: 3px;
 
   text-align: center;
@@ -1479,4 +1256,9 @@ nav ul li a span.rotate {
 }
 .slider-size {
   padding: 9px 28px;
+}
+.input-group-prepend {
+  display: flex;
+  margin: auto;
+  width: 38px;
 }

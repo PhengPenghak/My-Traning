@@ -33,17 +33,17 @@ const swiper = new Swiper(".swiper", {
   // for responsive Swiper
   on: {
     init: function () {},
-    orientationchange: function(){},
-    beforeResize: function(){
+    orientationchange: function () {},
+    beforeResize: function () {
       let vw = window.innerWidth;
-      if(vw > 1000){
-        mySwiper.params.slidesPerView = 6
-          mySwiper.params.slidesPerColumn = 6
-          mySwiper.params.slidesPerGroup = 6;
+      if (vw > 1000) {
+        mySwiper.params.slidesPerView = 6;
+        mySwiper.params.slidesPerColumn = 6;
+        mySwiper.params.slidesPerGroup = 6;
       } else {
-        mySwiper.params.slidesPerView = 3
-          mySwiper.params.slidesPerColumn = 2
-          mySwiper.params.slidesPerGroup =3;
+        mySwiper.params.slidesPerView = 3;
+        mySwiper.params.slidesPerColumn = 2;
+        mySwiper.params.slidesPerGroup = 3;
       }
       mySwiper.init();
     },
@@ -70,3 +70,9 @@ $(".three-btn").click(function () {
 $("nav ul li").click(function () {
   $(this).addClass("active").siblings().removeClass("active");
 });
+
+// Dark-Mode
+function changeMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
